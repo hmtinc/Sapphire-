@@ -1,5 +1,5 @@
 ![logo](https://github.com/hmtinc/)
-# Sapphire ETEXT Extractor 
+# Sapphire ETEXT Backup Utility
 Sapphire ETEXT Extractor is a C++ command line app which allows you to make legal offline 
 backups of your Pearson ETEXT Books
 
