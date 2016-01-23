@@ -16,7 +16,7 @@ do not have a flash based device.
 5. Read Offline 
 
 #Required Binaries 
-Sapphire makes use of 3rd party binaries to convert the online etext to pdf format. This binaries are
+Sapphire makes use of 3rd party binaries to convert the online etext to pdf format. These binaries are
 not provided with Sapphire and will need to be downloaded separately (links provided below)
 - HarTools (har2csv) - https://github.com/spcgh0st/HarTools
 - Swftools (swfrender) - http://www.swftools.org
