@@ -35,9 +35,9 @@ cross-platform
 
    
 #Legal
-I do not condone piracy and Sapphire is no way meant to be used illegitimately. It is meant to 
-be used to back up LEGAL COPIES ONLY and does not contain any copyrighted 3rd party material/code.
-Please review the textbook's terms of service before proceeding with this Utility
+Sapphire is meant to be used to back up LEGAL COPIES ONLY and does not contain any copyrighted 3rd party material/code.
+Please review the textbook's terms of service before proceeding with this Utility as most pearson textbooks permit one legal backup.
+
 
 
 
