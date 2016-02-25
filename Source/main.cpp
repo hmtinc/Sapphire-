@@ -51,7 +51,7 @@ void png_to_pdf(user_Info u_info, text_list png_list){
     text_str bin_str = u_info.convert_bin;
     text_str png_path_str = u_info.png_dir;
     text_str file_str = ".png";
-    text_str command_str = bin_str + " " + "-quality 75 ";
+    text_str command_str = bin_str + " " + "-quality 50 ";
     text_int length = png_list.size();
     text_str output_str = u_info.output_loc;
     
@@ -154,6 +154,7 @@ text_list convert_png(text_list swf_list, user_Info u_info){
     text_str swf_str = u_info.swfrender_path;
     text_str file_str = ".png";
     text_str message_str = " and saved as ";
+    text_str res_str = "-X 1836 -Y 2376 ";
     text_str final_str;
     text_str loc_str;
     
@@ -163,7 +164,7 @@ text_list convert_png(text_list swf_list, user_Info u_info){
     for( int x = 0; x < length; x++) {
         
         loc_str = dir_str + "/" + to_string(x) + file_str;
-        final_str = swf_str + " " + swf_list.front() + " -o " + loc_str;
+        final_str = swf_str + " " + res_str + swf_list.front() + " -o " + loc_str;
         swf_list.pop_front();
         new_file_list.push_front(loc_str); // Add new location to new file list
         system(final_str.c_str());
